@@ -11,3 +11,6 @@ wheels/
 
 # Database
 data
+
+# Catboost_info
+catboost_info
