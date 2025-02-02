@@ -1148,7 +1148,7 @@ def fillna_categorical(df):
     Retorna:
     O DataFrame preenchido e um dicionário contendo os valores usados para preencher as colunas categóricas.
     '''
-    categorical_cols = df.select_dtypes(include=['object']).columns
+    categorical_cols = df.select_dtypes(include=['object', 'category']).columns
     modes = {}
     for col in categorical_cols:
         modes[col] = df[col].mode()[0] if not df[col].mode().empty else 'VERIFICAR'
