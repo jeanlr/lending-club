@@ -1,8 +1,8 @@
 {
-    "iterations": 150,
-    "depth": 8,
+    "iterations": 50,
+    "depth": 4,
     "colsample_bylevel": 0.4,
-    "subsample": 0.8,
-    "learning_rate": 0.0656882399924485,
-    "auto_class_weights": "SqrtBalanced"
+    "subsample": 0.4,
+    "learning_rate": 0.015381501854132593,
+    "auto_class_weights": "Balanced"
 }
